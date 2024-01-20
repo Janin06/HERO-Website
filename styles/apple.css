@@ -1,0 +1,222 @@
+
+* {
+    padding: 0;
+    margin: 0;
+} 
+/*  reset  */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav .container{
+    display: flex;
+    width: 100vw;
+    flex-direction: row; 
+    justify-content: center;
+    /* อยู่ตรงกลางตามแนวของ flex-direction x */
+    align-items: center;
+    /* อยู่ตรงกลางตามแนว ที่ cross flex-direction  y  */
+    gap: 30px;
+    padding: 10px 0px;
+}
+body {
+    height: 200vh;
+    /* 200% ของ viewport  */
+}
+
+section.item-one {
+    margin-top: 40px;
+    height: 50vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+section.item-two {
+    margin-top: 10px;
+    height: 50vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bh/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+section.item-one h1 {
+    color : white;
+    margin-top: 40px;
+}
+
+section.item-two h1 {
+    color : black;
+    margin-top: 40px;
+}
+
+section.item-one p {
+    color : white;
+}
+section.item-two p {
+    color : black;
+}
+section div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+section div a {
+    color : rgb(0, 110, 255);
+}
+
+main {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 50% 50% */
+    /* grid-template-columns: 1/2 1/2 */
+}
+
+section.item_1 {
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+section.item_1  h1{
+    color : white;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_1 p {
+    color :red;
+}
+section.item_1 h3 {
+    color :white;
+}
+
+section.item_2 {
+
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/apple-watch-ultra-2/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section.item_2  h1{
+    color : black;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_2 p {
+    color :rgb(255, 85, 0);
+}
+section.item_2 h3 {
+    color :rgb(0, 0, 0);
+}
+section.item_3 {
+
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section.item_3  h1{
+    color : black;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_3 p {
+    color :rgb(0, 0, 0);
+}
+section.item_4 {
+
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/apple-fitness-plus/promo_fitness_alt__ck26n46yeb2a_large.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section.item_4  h1{
+    color : black;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_4 p {
+    color :rgb(0, 0, 0);
+}
+section.item_5 {
+
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/apple-card/tile__cauwwcyyn9hy_small.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section.item_5  h1{
+    color : black;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_5 p {
+    color :rgb(0, 0, 0);
+}
+section.item_6 {
+
+    margin-top: 10px;
+    height: 70vh;
+    /* 50% ของ viewport  */
+    background: url(https://www.apple.com/v/home/bi/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section.item_6  h1{
+    color : black;
+    margin-top: 60px;
+    align-items: center;
+}
+section.item_6 p {
+    color :rgb(0, 0, 0);
+}
